@@ -1,0 +1,6 @@
+server:
+  port: 8001
+mybatis:
+  type-aliases-package: com.he.springcloud.pojo
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-location: classpath:mybatis/mapper/*.xml
