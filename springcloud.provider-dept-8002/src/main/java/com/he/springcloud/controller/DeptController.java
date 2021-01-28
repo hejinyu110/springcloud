@@ -3,10 +3,7 @@ package com.he.springcloud.controller;
 import com.he.springcloud.pojo.Dept;
 import com.he.springcloud.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -17,7 +14,7 @@ public class DeptController {
     private DeptService deptService;
 
 
-    @GetMapping("/dept/add")
+    @RequestMapping("/dept/add")
     public boolean addDept(Dept dept){
         return deptService.addDept(dept);
     }
