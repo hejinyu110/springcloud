@@ -17,3 +17,17 @@ spring:
     url: jdbc:mysql://parking.guos.com.cn:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
     password: Guo7764@9d
+
+#Eureka 配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: springcloud-provicer-dept-8002
+
+
+#info 配置
+info:
+  app.name: he-springcloud
+  company.name: hejinyu110.com
