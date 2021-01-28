@@ -17,7 +17,7 @@ public class DeptController {
     private DeptService deptService;
 
 
-    @PostMapping("/dept/add")
+    @GetMapping("/dept/add")
     public boolean addDept(Dept dept){
         return deptService.addDept(dept);
     }
