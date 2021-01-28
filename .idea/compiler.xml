@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud.provider-dept-8002" />
         <module name="springcloud-api" />
+        <module name="springcloud-customer-dept-80" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
