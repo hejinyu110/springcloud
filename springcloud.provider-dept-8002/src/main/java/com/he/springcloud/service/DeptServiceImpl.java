@@ -20,6 +20,7 @@ public class DeptServiceImpl implements DeptService {
 
     @Override
     public Dept queryById(Long id) {
+        System.out.println("get params service"+id);
         return deptDao.queryById(id);
     }
 

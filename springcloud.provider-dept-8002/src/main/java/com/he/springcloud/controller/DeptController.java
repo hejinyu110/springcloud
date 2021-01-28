@@ -24,6 +24,7 @@ public class DeptController {
 
     @GetMapping("/dept/get/{id}")
     public Dept queryById(@PathVariable("id") Long id){
+        System.out.println("get params "+id);
         return deptService.queryById(id);
     }
 

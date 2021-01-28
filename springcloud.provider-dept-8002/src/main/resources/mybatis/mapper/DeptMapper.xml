@@ -10,7 +10,7 @@
         values(#{dname},DATABASE());
     </insert>
     <select id="queryById" resultType="Dept" parameterType="Long">
-        select * from dept where id = #{id};
+        select * from dept where deptno = #{id};
     </select>
     <select id="queryAll" resultType="Dept">
         select * from dept;
