@@ -18,7 +18,10 @@ public class DeptCustomerController {
     @Autowired
     private RestTemplate restTemplate;//提供简单的 http服务的方法，简单的restfull 模板
 
-    private static final String REST_URL_PREFIX = "http://localhost:8002";
+
+//    private static final String REST_URL_PREFIX = "http://localhost:8002";
+    //ribbon 这里的地址是一个变量，通过服务名称来获取
+    private static final String REST_URL_PREFIX = "http://SPRINGCLOUD-POROVIDER-DEPT";
 
     @RequestMapping("/customer/dept/get/{id}")
     public Dept get(@PathVariable("id") Long id){

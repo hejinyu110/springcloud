@@ -13,6 +13,22 @@
 
     <!--实体类 web-->
     <dependencies>
+        <!--负载均衡器  客户端获取注册中心服务 ribbon-->
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-ribbon -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-ribbon</artifactId>
+            <version>1.4.6.RELEASE</version>
+        </dependency>
+
+        <!--Eureka -->
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+            <version>1.4.4.RELEASE</version>
+        </dependency>
+
         <dependency>
             <groupId>com.he</groupId>
             <artifactId>springcloud-api</artifactId>
