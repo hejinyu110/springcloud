@@ -12,6 +12,13 @@
     <artifactId>springcloud-api</artifactId>
     <!--当前moudle 自己用的包 如果父类中有版本,这里就不用配置了-->
     <dependencies>
+        <!--feign 包含了 ribbon-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+            <version>1.4.6.RELEASE</version>
+        </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
