@@ -21,7 +21,7 @@ public class DeptCustomerController {
 
 //    private static final String REST_URL_PREFIX = "http://localhost:8002";
     //ribbon 这里的地址是一个变量，通过服务名称来获取
-    private static final String REST_URL_PREFIX = "http://SPRINGCLOUD-POROVIDER-DEPT";
+    private static final String REST_URL_PREFIX = "http://SPRINGCLOUD-PROVIDER-DEPT";
 
     @RequestMapping("/customer/dept/get/{id}")
     public Dept get(@PathVariable("id") Long id){

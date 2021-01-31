@@ -4,6 +4,6 @@ server:
 #Eureka
 eureka:
   client:
-    service-url:
-      defautZone: http://localhost:7003/eureka/,http://localhost:7002/eureka/,http://localhost:7001/eureka/
     register-with-eureka: false #客户端不用注册
+    service-url:
+      defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/,http://localhost:7003/eureka/
