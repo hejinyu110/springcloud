@@ -1,5 +1,6 @@
-package com.he.springcloud.pojo;
+package com.he.springcloud.service;
 
+import com.he.springcloud.pojo.Dept;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
