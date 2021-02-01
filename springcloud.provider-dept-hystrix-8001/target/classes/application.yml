@@ -25,7 +25,7 @@ eureka:
       defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/,http://localhost:7003/eureka/
 #      defaultZone: http://localhost:7001/eureka
   instance:
-    instance-id: springcloud-provicer-dept-8002
+    instance-id: springcloud-provicer-dept-hystrix-8001
 
 
 #info 配置
