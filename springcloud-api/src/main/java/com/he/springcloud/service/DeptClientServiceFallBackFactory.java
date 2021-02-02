@@ -15,6 +15,7 @@ public class DeptClientServiceFallBackFactory implements FallbackFactory {
 
     public DeptClientService create(Throwable throwable){
         return new DeptClientService() {
+
             public Dept queryById(Long id) {
                 return new Dept().
                         setDeptno(id)

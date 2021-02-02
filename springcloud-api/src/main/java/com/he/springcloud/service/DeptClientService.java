@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import java.util.List;
 
 @Component
-@FeignClient(value = "SPRINGCLOUD-PROVIDER-DEPT")
+//服务熔断的处理工厂类，也可以通过单独的 customer 中去使用注解 熔断一个方法  如  8002 controller 下的 get  方法
+@FeignClient(value = "SPRINGCLOUD-PROVIDER-DEPT", fallbackFactory = DeptClientServiceFallBackFactory.class)
 public interface DeptClientService {
 
     @GetMapping("/dept/get/{id}")
