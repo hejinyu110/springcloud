@@ -37,14 +37,14 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-hystrix</artifactId>
-            <version>1.4.4.RELEASE</version>
+            <version>1.4.6.RELEASE</version>
         </dependency>
         <!--Eureka -->
         <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
-            <version>1.4.4.RELEASE</version>
+            <version>1.4.6.RELEASE</version>
         </dependency>
         <!-- Eureka 描述信息-->
         <dependency>

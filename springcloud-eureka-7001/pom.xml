@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-hystrix-server</artifactId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
             <version>1.4.4.RELEASE</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka-server -->
