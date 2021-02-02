@@ -26,6 +26,7 @@ eureka:
 #      defaultZone: http://localhost:7001/eureka
   instance:
     instance-id: springcloud-provicer-dept-hystrix-8001
+    prefer-ip-address: true  #显示服务对应的ip
 
 
 #info 配置
