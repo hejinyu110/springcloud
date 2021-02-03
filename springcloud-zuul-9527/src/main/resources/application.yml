@@ -22,5 +22,5 @@ info:
   company.name: www.he.com
 zuul:
   routes:
-    mydept-service-id: springcloud-provider-dept
-    mydept-id: /mydept/*
+    mydept.serviceId: springcloud-provider-dept
+    mydept.path: /mydept/**
