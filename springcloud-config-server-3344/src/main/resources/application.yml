@@ -1,0 +1,23 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: springcloud-config-server
+  #远程仓库
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hejinyu110/cloudconfig.git
+
+
+
+#Eureka 配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/,http://localhost:7003/eureka/
+  #      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: springcloud-config-server-3344

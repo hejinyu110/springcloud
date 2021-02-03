@@ -24,3 +24,6 @@ zuul:
   routes:
     mydept.serviceId: springcloud-provider-dept
     mydept.path: /mydept/**
+#  ignored-services: springcloud-provider-dept  #原服务名称不让访问 隐藏单个
+  ignored-services: "*"  #隐藏所有服务
+#  prefix: /he  # 统一的服务访问前缀
