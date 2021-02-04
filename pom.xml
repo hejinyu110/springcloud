@@ -20,6 +20,7 @@
         <module>springcloud-customer-dept-hystrix-dashboard</module>
         <module>springcloud-zuul-9527</module>
         <module>springcloud-config-server-3344</module>
+        <module>springcloud-config-clinet-3355</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
